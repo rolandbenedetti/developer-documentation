@@ -143,11 +143,10 @@ pages:
             - 'eZ Platform 15.12.1': 'releases/ez_platform_15.12.1_release_notes.md'
             - 'eZ Platform 15.12': 'releases/ez_platform_15.12_release_notes.md'
             - 'Earlier releases': 'releases/earlier_releases.md'
-theme: united
-#theme_dir: templates
-#extra_css: [css/custom.css, css/font-awesome.min.css]
-#extra_javascript: [js/scrollspy.js, js/extra.js]
-extra_javascript: [js/fix_search.js]
+theme: readthedocs
+theme_dir: templates
+extra_css: [css/custom.css]
+extra_javascript: [js/scrollspy.js, js/extra.js, js/fix_search.js]
 markdown_extensions:
     - markdown.extensions.admonition
     - pymdownx.superfences

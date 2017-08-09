@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    word-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+.wy-nav-content-wrap, .wy-nav-content {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+ol,
+ul {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #f15a22;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #da3c03;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #f15a22;
+}
+
+code {
+    color: #3f3f3f;
+}
+
+/* Footer */
+footer {
+    padding-top: 2em;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #3f3f3f;
+    text-align: center;
+}
+
+/* Left column */
+.wy-nav-side, .wy-nav-top {
+    background-color: #3f3f3f;
+}
+
+/* Search box */
+.wy-side-nav-search {
+    background-color: inherit;
+}
+
+.wy-side-nav-search > a:hover, .wy-nav-top a:hover {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.wy-side-nav-search input[type=text] {
+    border-color: #1f1f1f;
+}
+
+.wy-nav-content {
+    max-width: 70%;
+    margin-left: 10%;
+}
+
+.wy-nav-side {
+    width: 400px;
+}
+
+.rst-versions {
+    width: 400px !important;
+}
+
+/* Main table of contents */
+.wy-menu-vertical a,
+.wy-menu-vertical li ul li a {
+    color: #d8d8d8;
+}
+
+.wy-menu-vertical li {
+    clear: both;
+}
+
+.wy-menu-vertical li ul {
+    margin-bottom: 0;
+    display: none;
+}
+
+.wy-menu-vertical li.current a {
+    padding: 0.4045em 2.427em 0.4045em 2.4em;
+    margin-left: 30px;
+}
+
+.wy-menu-vertical li.toctree-l1 > a,
+.wy-menu-vertical li.toctree-l1 > span.caption-text {
+    padding: 0.4045em 2.427em 0.4045em 2em;
+    padding-left: 0;
+    margin-left: 2.5em;
+    line-height: 2em;
+    /* padding-left: 1em; */
+}
+
+.wy-menu-vertical li.toctree-l1 {
+    clear:both;
+}
+
+.wy-menu-vertical .subnav a,
+.wy-menu-vertical .subnav li.current > a  {
+    padding-left: 2em;
+}
+
+.wy-menu-vertical span {
+    padding: 0 4px 0 6px;
+}
+
+.wy-menu-vertical span.caption-text {
+    color: #8b8b8b;
+    font-variant: small-caps;
+    padding: 0.4045em 2.427em 0.4045em 0em;
+}
+
+.wy-menu a:hover {
+    color: #ebebeb;
+}
+
+.wy-menu a:hover {
+    background-color: #525252;
+}
+
+/* Do not duplicate page title in table of contents */
+li.current > ul > li:first-of-type {
+    display: none;
+}
+
+/* Override main table of contents blue on active link */
+.wy-menu-vertical a:active {
+    background-color: #1f1f1f;
+}
+
+/* Next, Previous, Edit on Github button */
+.btn-neutral {
+    box-shadow: none;
+    background-color: #3f3f3f !important;
+    color: #fff !important;
+}
+
+.btn-neutral:visited {
+    color: #fff !important;
+}
+
+.btn-neutral:hover {
+    background-color: #1f1f1f !important;
+    text-decoration: none;
+}
+
+.wy-breadcrumbs li a:not(.wy-breadcrumbs-aside) {
+	display:inline-block;
+	padding:5px;
+}
+
+/* Replace RTD logo with eZ logo upper-left */
+.icon-home:before {
+	content: url(../img/ez-logo.png);
+    padding-right: 5px;
+}
+
+/* Version link in RST badge */
+.rst-versions .rst-current-version {
+    color: #f15a22 !important;
+}
+
+/* Images and caption in-page */
+figure {
+    display: table;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    background: #4c4c4c;
+    font-size: 12px;
+    color: #d8d8d8;
+    padding: 10px;
+}
+
+/* In-page TOC */
+.toc a {
+    font-size: 0.9em;
+}
+
+.wy-menu-vertical li.current ul {
+    display: block;
+    padding-left: 1.8em;
+}
+
+.wy-menu-vertical li.current a {
+    padding: 0.4045em 2.427em 0.4045em 0.5em;
+}
+
+.wy-menu-vertical li.current .active a {
+    color: #f15a22;
+}
+
+.wy-menu-vertical li span:before {
+    -webkit-font-smoothing: antialiased;
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    font-size: 1.0em;
+}
+
+/* plus sign */
+.wy-menu-vertical li span.toctree-expand:before {
+    content: "\f196";
+}
+
+/* minus sign */
+.wy-menu-vertical li.current span.toctree-expand:before {
+    content: "\f147";
+}
+
+/* plus sign */
+.wy-menu-vertical li.current li:not(.current) span.toctree-expand:before {
+    content: "\f196";
+}
+
+.wy-menu-vertical li span.toctree-expand {
+    display: block;
+    float: left;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+    line-height: 2.8em;
+}
+
+ul.subnav li:not(.current) ul.subnav {
+    display: none;
+}
