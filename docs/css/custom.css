@@ -1,0 +1,52 @@
+body {
+    padding-top: 154px;
+}
+
+@media (max-width: 1199px) {
+    body {
+        padding-top: 193px;
+    }
+
+    .bs-sidebar.affix {
+        top: 217px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .bs-sidebar.affix {
+        top: 176px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .bs-sidebar.affix {
+        top: 176px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bs-sidebar.affix-bottom, .bs-sidebar.affix {
+        top: 176px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 223px;
+    }
+}
+
+@media (min-width: 1199px) {
+    body {
+        padding-top: 151px;
+    }
+}
