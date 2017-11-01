@@ -6,9 +6,9 @@ If you are looking for the Long Term Support (LTS) release, see [https://ezplatf
 
 ## Notable changes since v1.11.0
 
-#### New Options in the Rich Text editor
+#### New Options in the Online Editor
 
-The Rich Text editor now enables you to add both ordered and unordered lists.
+The Online Editor now enables you to add both ordered and unordered lists.
 
 You also have new options to format your text using subscript, superscript, quote and strikethrough.
 
